@@ -1,0 +1,162 @@
+en:
+  language: English
+  usersettings: "User settings"
+  productexamples: "Bicycle, Car, Computer etc.."
+  pagetitle: "Repair shop"
+  are_you_sure: "Are you sure?"
+  filter: "Filter"
+  totalprice: "Total price:"
+  see_more: 'See more'
+
+  welcome:
+    about_us: "About us"
+    about:
+      text_html: |
+        <p>We created this software when a family member needed a simple Repair management system for his Bicycle company.</p>
+        <p>We have ever since kept making the software better, adding features and fixing bugs.</p>
+    designer: 'Designer'
+    developer: 'Developer'
+    features: 'Features'
+    feature1_html: |
+      <ul>
+        <li>Mobile friendly</li>
+        <li>Simple overview of your clients, repairs</li>
+        <li>Notify clients with email from the system</li>
+        <li>Support, built in chat!</li>
+        <li>Assign a repair to a worker</li>
+        <li>Add photos of items in repair</li>
+      </ul>
+    index: 'Repero'
+    repero1: 'Repairo is simple system that keeps track of all your repairs and clients.'
+    repero2: 'You simply set up your client in Repairo and assign a repair to the client and when the repair is done, Repairo will let your client know by email.'
+    repero3: 'Repero handles all kinds of repairs, be it Bicycles, Computers, Smartphones, Cars etc.'
+    see_features: 'See more features'
+    signup:
+      free_trial: 'Do you want a free trial?'
+      signup_html: |
+        <p>No credit card required!</p>
+        <p>Only email is required to create an account.</p>
+    tagline: 'Let Repero Do All The Work.'
+    try_a_demo: 'Try a free demo:'
+
+    see_more: 'See more'
+    what_does_repero_do: 'What does Repero do?'
+  product:
+    title: "product"
+    edit: "Edit product"
+    new: "New product"
+    save: "Save"
+    created: 'product was successfully created.'
+  products:
+    title: "products"
+  client:
+    new: "New client"
+    edit: "Edit client"
+    title: "Client"
+    save: "Save"
+    created: "Client created"
+    updated: "Client updated"
+    destroyed: "Client destroyed"
+  clients:
+    title: "Clients"
+  repair:
+    new: "New repair"
+    edit: "Edit repair"
+    title: "Repair"
+    number: "Repair number:"
+    search: "Search text:"
+    add_valid_email: 'This client is missing a valid email address.'
+  repairs:
+    title: "Repairs"
+    create:
+      success: "Repair was successfully created."
+  comments: "Comments"
+  comment:
+    new: "Save comment"
+    write: "Write a comment"
+  setting: "Setting"
+  settings: "Settings"
+  brand: "Brand"
+  brands: "Brands"
+  color: "Color"
+  colors: "Colors"
+  staff: "Staff"
+  staff:
+    title: "Staff"
+    new: "New staff"
+    repair_history: 'Repair history'
+  staffs: "Staff"
+  status:
+    title: "Status"
+    new: "New status"
+  statuses: "Statuses"
+  material:
+    name: "Material name"
+    price: "Material price"
+    add: "Add material"
+    save: "Save material"
+  materials:
+    title: "Materials and hours:"
+    price: "All materials:"
+  activerecord:
+    attributes:
+      user:
+        password: 'Password'
+        password_confirmation: 'Confirm password'
+        current_password: 'Current password:'
+        locale: "Language"
+      company:
+        company_name: 'Name of your company'
+        productname: 'Type of your product'
+        logo_url: 'URL, path to a picture, logo of the company. This image will show up in emails you send to clients.'
+      repair:
+        description: 'Description'
+        #product_id:
+    successful:
+      messages:
+        created: "%{model} created."
+        updated: "%{model} updated."
+        deleted: "%{model} deleted."
+#    errors:
+#      messages:
+#        record_invalid:
+#      models:
+#        admin:
+#          attributes:
+#            name:
+
+  mailer:
+    email_sent: "Email sent."
+    send:
+      product_ready: "Send email, product ready"
+      next_in_line: "Sent email, next in line"
+      fail: "Failure sending mail"
+    sent:
+      product_ready: "Email sent to client, product ready"
+      next_in_line: "Email sent to client, next in line"
+      fail: "Failure sending mail"
+    email:
+      hello: "Hello"
+      repair_done: "Repair completed!"
+      cost: "Cost"
+      greetings: "Regards"
+      repero:
+        disclaimer: "Repair management system"
+        url: "www.repero.me"
+
+  simple_form:
+    "yes": 'Yes'
+    "no": 'No'
+    required:
+      text: 'required'
+      mark: '*'
+      # You can uncomment the line below if you need to overwrite the whole required html.
+      # When using html, text and mark won't be used.
+      # html: '<abbr title="required">*</abbr>'
+    error_notification:
+      default_message: "Please review the problems below:"
+
+  devise:
+    registrations:
+      new:
+        logout: 'Logout'
